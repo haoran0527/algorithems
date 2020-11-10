@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+elastic:
+  job:
+    zk:
+      namespace: haoran
+      server-lists: 121.89.202.27:2181 
