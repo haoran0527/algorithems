@@ -48,7 +48,7 @@ public class InsertArea implements InsertAreaTest {
             if(ar[0]<=a[1] && ar[1]>=a[1]){//可以合并
                 flag = 1;
                 if(ar[1]>a[1]){
-                    a[1] = ar[1];
+                    a[1] = ar[1];//mark
                 }
             }
             if(ar[0]<a[0] && ar[1]>a[1]){//可以合并
